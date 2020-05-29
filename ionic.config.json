@@ -1,0 +1,7 @@
+{
+  "name": "IonicFileTransfer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
