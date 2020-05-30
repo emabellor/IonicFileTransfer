@@ -1,7 +1,10 @@
 {
   "name": "IonicFileTransfer",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {
+      "enabled": false
+    }
   },
   "type": "angular"
 }

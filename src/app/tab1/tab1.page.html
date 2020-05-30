@@ -13,5 +13,13 @@
     </ion-toolbar>
   </ion-header>
 
+  <ion-list>
+    <ion-input type="file" name="myFile"></ion-input>
+    <ion-button (click)="UploadToServer()">Upload To Server</ion-button>
+    <ion-button (click)="DownloadFile()">Download File Web</ion-button>
+    <ion-button (click)="DownloadFromServer()">Download from Server</ion-button>
+  </ion-list>
+  
+
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
